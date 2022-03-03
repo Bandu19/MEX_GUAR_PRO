@@ -207,7 +207,7 @@ section {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -332,7 +332,7 @@ section {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #012970;
@@ -510,10 +510,11 @@ header .logo {
 
 .hero {
   height: 100vh;
-  background-image: var(--background), url(../img/prueba1.jpg);
+  background: var(--background), url(../img/prueba1.jpg);
+  /* no-repeat center center / cover */
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-position: center;
   position: relative;
 }
@@ -783,6 +784,7 @@ header .logo {
 @media (max-width: 745px) {
   .hero_container {
     height: calc(120vh - 70px);
+    align-items: flex-start;
   }
   .hero__wave {
     bottom: -24px;
