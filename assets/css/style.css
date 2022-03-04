@@ -53,11 +53,10 @@ section {
 }
 
 .section-header h2 {
-  font-size: 13px;
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
-  color: #4154f1;
+  color: #db0334;
   text-transform: uppercase;
 }
 
@@ -67,7 +66,7 @@ section {
   font-size: 38px;
   line-height: 42px;
   font-weight: 700;
-  color: #012970;
+  color: #020202;
 }
 
 @media (max-width: 768px) {
@@ -448,6 +447,11 @@ section {
   overflow: hidden;
   padding: 40px 0;
   max-width: 1200px;
+}
+
+.imagen_estilo {
+  max-width: 100%;
+  height: 100%;
 }
 
 .content_ani {
@@ -904,7 +908,7 @@ header .logo img {
 
 .values .box h3 {
   font-size: 24px;
-  color: #012970;
+  color: #e62424;
   font-weight: 700;
   margin-bottom: 18px;
 }
@@ -1043,11 +1047,13 @@ header .logo img {
 }
 
 .features .feature-icons h3 {
-  color: #012970;
+  color: #e9222c;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 40px;
   margin-bottom: 20px;
+  padding-bottom: 10px;
   text-align: center;
+  /* border-bottom: 2px solid #010100; */
 }
 
 @media (max-width: 768px) {
@@ -1064,13 +1070,13 @@ header .logo img {
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 10px 0;
-  color: #012970;
+  color: #010100;
 }
 
 .features .feature-icons .content .icon-box i {
   font-size: 44px;
   line-height: 44px;
-  color: #0245bc;
+  color: #e9222c;
   margin-right: 15px;
 }
 
