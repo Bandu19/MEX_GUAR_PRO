@@ -106,11 +106,31 @@
 
   /**
    * Mobile nav toggle
+   *
+   *
+   * the origin is here
    */
+  /** the botton header*/
+  const nav_a = document.querySelector(".nav_items");
+  const nav_b = document.querySelector(".nav_a");
+  const nav_c = document.querySelector(".nav_b");
+
   on("click", ".mobile-nav-toggle", function (e) {
     select("#navbar").classList.toggle("navbar-mobile");
+    // select("#navbar").classList.toggle("pruebanav");
     this.classList.toggle("bi-list");
     this.classList.toggle("bi-x");
+
+    if (nav_a.classList.toggle("text-white")) {
+      nav_a.classList.remove("text-white");
+    } else if (nav_b.classList.toggle("text-white")) {
+      nav_b.classList.remove("text-white");
+    } else if (nav_c.classList.toggle("text-white")) {
+      nav_c.classList.remove("text-white");
+    }
+
+    // const links = document.querySelector("nav_items");
+    // links.classList.remove("text-white");
   });
 
   /**
